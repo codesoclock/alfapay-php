@@ -1,6 +1,6 @@
 <?php
 
-namespace Naeemz\Alfapay;
+namespace Codesoclock\Alfapay;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Naeemz\Alfapay;
+namespace Codesoclock\Alfapay;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Naeemz\Alfapay
+ * @see \Codesoclock\Alfapay
  */
 class AlfapayFacade extends Facade
 {

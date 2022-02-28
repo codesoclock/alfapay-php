@@ -1,17 +1,17 @@
 {
-    "name": "naeemz/alfapay",
+    "name": "codesoclock/alfapay",
     "description": "Alfa Pay is Bank Alfalah Payment gateway package",
     "keywords": [
-        "naeemz",
+        "codesoclock",
         "alfapay"
     ],
-    "homepage": "https://github.com/naeemz/alfapay",
+    "homepage": "https://github.com/codesoclock/alfapay",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "naeemz",
-            "email": "naeemz@gmail.com",
+            "name": "codesoclock",
+            "email": "codesoclock@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Naeemz\\Alfapay\\": "src"
+            "Codesoclock\\Alfapay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Naeemz\\Alfapay\\Tests\\": "tests"
+            "Codesoclock\\Alfapay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Naeemz\\Alfapay\\AlfapayServiceProvider"
+                "Codesoclock\\Alfapay\\AlfapayServiceProvider"
             ],
             "aliases": {
-                "Alfapay": "Naeemz\\Alfapay\\AlfapayFacade"
+                "Alfapay": "Codesoclock\\Alfapay\\AlfapayFacade"
             }
         }
     }

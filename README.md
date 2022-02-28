@@ -1,8 +1,8 @@
 # AlfaPay
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/naeemz/alfapay.svg?style=flat-square)](https://packagist.org/packages/naeemz/alfapay)
-[![Total Downloads](https://img.shields.io/packagist/dt/naeemz/alfapay.svg?style=flat-square)](https://packagist.org/packages/naeemz/alfapay)
-![GitHub Actions](https://github.com/naeemz/alfapay/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codesoclock/alfapay.svg?style=flat-square)](https://packagist.org/packages/codesoclock/alfapay)
+[![Total Downloads](https://img.shields.io/packagist/dt/codesoclock/alfapay.svg?style=flat-square)](https://packagist.org/packages/codesoclock/alfapay)
+![GitHub Actions](https://github.com/codesoclock/alfapay/actions/workflows/main.yml/badge.svg)
 
 This is Bank Alfalah payment gateway package to pay using Alfa Wallet, Bank Account Number or Credit Card (Credit Card not yet implemented). You can use this package with Laravel or any PHP framework via composer.
 
@@ -11,13 +11,14 @@ This is Bank Alfalah payment gateway package to pay using Alfa Wallet, Bank Acco
 You can install the package via composer:
 
 ```bash
-composer require naeemz/alfapay
+composer require codesoclock/alfapay
 ```
 
 ## Set .env configurations
 You can get these values from Bank Alfalah Merchant portal
 ```php
 ALFAPAY_URL=https://sandbox.bankalfalah.com/HS/api/HSAPI/HSAPI
+ALFAPAY_MODE=sandbox
 ALFAPAY_CHANNEL_ID=
 ALFAPAY_MERCHANT_ID=
 ALFAPAY_STORE_ID=
@@ -77,7 +78,7 @@ If you discover any security related issues, please email naeemins@gmail.com ins
 
 ## Credits
 
--   [naeemz](https://github.com/naeemz)
+-   [codesoclock](https://github.com/codesoclock)
 -   [All Contributors](../../contributors)
 
 ## License
