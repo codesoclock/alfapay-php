@@ -1,11 +1,13 @@
 {
-    "name": "codesoclock/alfapay",
+    "name": "codesoclock/alfapay-php",
     "description": "Alfa Pay is Bank Alfalah Payment gateway package",
     "keywords": [
         "codesoclock",
-        "alfapay"
+        "alfapay",
+        "bank alfalah",
+        "pakistan"
     ],
-    "homepage": "https://github.com/codesoclock/alfapay",
+    "homepage": "https://github.com/codesoclock/alfapay-php",
     "license": "MIT",
     "type": "library",
     "authors": [
