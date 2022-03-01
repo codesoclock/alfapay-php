@@ -11,7 +11,7 @@ This is Bank Alfalah payment gateway package to pay using Alfa Wallet, Bank Acco
 You can install the package via composer:
 
 ```bash
-composer require codesoclock/alfapay
+composer require codesoclock/alfapay-php
 ```
 
 ## Set .env configurations
